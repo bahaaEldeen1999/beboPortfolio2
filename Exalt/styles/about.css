@@ -1,0 +1,33 @@
+.col-md-1{
+    background: var(--darkBlue);
+    color: white;
+   
+   
+}
+.col-md-11{
+    background: var(--lightBlue1);
+    text-align: center;
+    color: white
+}
+#about ul{
+    padding-left: 0;
+    
+}
+#about ul li{
+   padding: 20px 0
+
+}
+#about span{
+    padding-right: 10px
+}
+#about .btn{
+    background-color: var(--yellowColor);
+    color:white;
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: all ease-in-out .2s;
+}
+#about .btn:hover{
+    background-color: var(--greenColor)
+}

@@ -1,0 +1,57 @@
+#contact .col-md-1{
+    background-color: var(--darkBlue);
+}
+#contact .col-md-11{
+    background-color: var(--lightBlue1)
+}
+
+#contact p{
+    padding: 2px
+}
+form input,textarea{
+    display: block;
+    width: 80%;
+    margin: 30px 0;
+    border: none;
+    border-bottom:solid 1px white;
+    outline: none;
+    background-color: transparent;
+    color: white
+}
+
+
+::placeholder{
+    color: white
+}
+form button{
+    display: block;
+    width: 80%;
+    margin-left: 20px 0;
+    cursor: pointer;
+    color: var(--darkBlue);
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    font-size: 20px
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  
+    -webkit-appearance: none;
+    margin: 0;
+}
+#contact .col-md-6:first-of-type div{
+    background-image: url('../images/contact.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+    min-height:300px;
+    height: 100%;
+}
+#contact .col-md-6:first-of-type{
+    padding: 10px;
+    
+}

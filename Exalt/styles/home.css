@@ -1,0 +1,21 @@
+section#home{
+    padding: 0;
+    background-attachment: fixed;
+    background-image: url('../images/home2.jpeg');
+    background-size: cover;
+    min-height: 100%;
+    color: white
+}
+#home .overlay{
+    padding-top: 150px
+}
+#home .btn{
+    background-color: var(--yellowColor);
+    color:white;
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 20px
+}
+#home .btn:hover{
+    background-color: var(--greenColor)
+}

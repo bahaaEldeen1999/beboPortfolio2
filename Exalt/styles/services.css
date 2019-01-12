@@ -1,0 +1,20 @@
+#services .col-md-1{
+    background: var(--darkPinkColor)
+}
+#services .col-md-11{
+    background: var(--pinkColor)
+}
+.ServiceIcon{
+    padding: 20px
+}
+.ServiceIcon i{
+    padding: 10px;
+    border: 3px solid white
+}
+#services .divide{
+    margin: 10px auto
+}
+#services p{
+   
+    padding: 10px 0
+}

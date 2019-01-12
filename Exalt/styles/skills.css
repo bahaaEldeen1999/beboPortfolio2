@@ -1,0 +1,28 @@
+#skills .col-md-1{
+background: var(--darkYellowColor)
+}
+#skills .col-md-11{
+    background: var(--yellowColor)
+}
+#skills ul{
+    padding-left: 0;
+    
+}
+#skills ul li{
+   padding: 2px 0
+
+}
+#skills span{
+    padding-right: 10px
+}
+#skills ul p {
+    padding: 2px;
+    margin-bottom: 0
+ 
+}
+#skills .col-md-5{
+padding-top: 40px
+}
+.skill {
+    padding: 20px 0
+}

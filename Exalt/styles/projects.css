@@ -1,0 +1,126 @@
+.col-md-1{
+    background-color: var(--darkGreenColor);
+}
+.col-md-11{
+    background-color: var(--greenColor);
+}
+.filterMenu ul{
+    background-color: white;
+    padding: 1px;
+    border-radius: 30px;
+    width: 600px;
+    margin: auto
+}
+.filterMenu li{
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid #D7D7D7;
+    color:  var(--greenColor);
+    cursor: pointer;
+}
+.filterMenu li:hover{
+    color: #9A81D4
+}
+.filterMenu li:last-of-type{
+    border-right:none
+
+}
+.filterItem{
+    margin: 20px 0;
+    border-radius: 1px;
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+.filterItem img{
+    height: 200px;
+}
+.overlayImg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    background-color: rgba(36, 35, 83,.95);
+    font-size: .9em;
+    padding: 20px 1px;
+    display: none;
+}
+.overlayImg p{
+    padding: 0;
+    margin: 1px
+}
+.iconsOver i{
+    padding: 10px;
+    background-color: white;
+    color: var(--greenColor);
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+.zoomedImg{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    background-color: rgba(0, 0, 0,.9);
+    z-index: 999;
+    text-align: center;
+    display: none;
+   
+
+}
+.zoomedImg img{
+    width: 400px;
+    height: 100%;
+}
+.zoomedImg .exitIcon{
+    width: 100px;
+    float: right
+}
+.zoomedImg .exitIcon i{
+    padding: 10px;
+    background-color: rgba(255,255,255);
+    color: black;
+    margin: 20px;
+    cursor: pointer;
+}
+.prevIcon{
+    width: 100px;
+    position: fixed;
+    
+    left: 10px;
+    top: 50%;
+}
+.nextIcon{
+    width: 100px;
+    position: fixed;
+    right: 10px;
+    top: 50%;
+   
+   
+    
+}
+.nextIcon i,.prevIcon i {
+    padding: 15px;
+    background-color: transparent;
+    color: rgba(255,255,255,.7);
+    font-size: 20px;
+   cursor: pointer;
+    transform-origin: center center 0;
+    background-color: rgba(0,0,0,.9);
+}
+
+
+    
+@media screen and (max-width:650px){
+    .filterMenu li{
+        display: block;
+        border: none
+       
+    }
+    .filterMenu ul{
+        width: 60%
+    }
+}
